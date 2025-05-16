@@ -1,0 +1,72 @@
+
+user@DESKTOP-NUQN6QU MINGW64 ~ (master)
+$ mkdir learn_git
+mkdir: cannot create directory ‘learn_git’: File exists
+
+user@DESKTOP-NUQN6QU MINGW64 ~ (master)
+$ cd learn_git
+
+user@DESKTOP-NUQN6QU MINGW64 ~/learn_git (master)
+$ touch third.txt
+
+user@DESKTOP-NUQN6QU MINGW64 ~/learn_git (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/user/learn_git/.git/
+
+user@DESKTOP-NUQN6QU MINGW64 ~/learn_git (master)
+$ git add third.txt
+
+user@DESKTOP-NUQN6QU MINGW64 ~/learn_git (master)
+$ git commit -m "adding third.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-NUQN6QU.(none)')
+
+user@DESKTOP-NUQN6QU MINGW64 ~/learn_git (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+user@DESKTOP-NUQN6QU MINGW64 ~/learn_git (master)
+$ touch fourth.txt
+
+user@DESKTOP-NUQN6QU MINGW64 ~/learn_git (master)
+$ git add fourth.txt
+
+user@DESKTOP-NUQN6QU MINGW64 ~/learn_git (master)
+$ git commit -m "adding fourth.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-NUQN6QU.(none)')
+
+user@DESKTOP-NUQN6QU MINGW64 ~/learn_git (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+user@DESKTOP-NUQN6QU MINGW64 ~/learn_git (master)
+$ git config --global core.pager cat
+
+user@DESKTOP-NUQN6QU MINGW64 ~/learn_git (master)
+$ git config --global list
+error: key does not contain a section: list
+
+user@DESKTOP-NUQN6QU MINGW64 ~/learn_git (master)
